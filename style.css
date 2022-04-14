@@ -1,6 +1,6 @@
 .wrapper{
   display: grid;
-  grid-template-columns:  1fr 1fr 1fr;
+  grid-template-columns:  repeat(6, 1fr);
 }
 .wrapper div{
   border: 1px dashed black;
